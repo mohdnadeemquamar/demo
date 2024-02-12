@@ -1,0 +1,21 @@
+Git repo unit
+1. git init
+   Master is the main branch.
+2. git add license.txt README.md
+3. git status
+4. git status -s
+5. git add .
+6. git status -s
+7. git commit -m "init commit"
+8. git status --help
+9. git -h
+10. git commit -a -m "new changes"
+
+
+git ignoring
+1. git -r --caches bin/
+2. touch .gitignore
+3. nano .gitignore CTRL+X
+4. git commit -m "Added .gitignore and remove bin/from staging"
+5. 
+
