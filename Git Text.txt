@@ -37,6 +37,15 @@ git hosting & Remote repositories
 SSH Connection
 Add SSH key in your github profile in ssh and gpg key. Goto Git GUI and copy
 ssh key from help. And then create a new ssh key and paste there.
+1. git remote -v
+2. git remote set-url origin git@github.com:mohdnadeemquamar/demo.git
+Now checkout remote
+3. git remote -v
+4. git commit -a -m "test SSH connection"
+5. git push
+
+
+
 git remote set-url origin git@github.com
 git commit -a-m "test SSH conection"
 git push origin master
